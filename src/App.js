@@ -9,12 +9,14 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Routes>
-          <Route index element={<HomePage />} />
-          <Route path='about' element={<AboutPage />} />
-          <Route path='articles-list' element={<ArticlesList />} />
-          <Route path='article-one' element={<ArticlePage />} />
-        </Routes>
+        <div id='page-body'>
+          <Routes>
+            <Route index element={<HomePage />} />
+            <Route path='about' element={<AboutPage />} />
+            <Route path='articles-list' element={<ArticlesList />} />
+            <Route path='article-one' element={<ArticlePage />} />
+          </Routes>
+        </div>
       </div>
     </Router>
     
