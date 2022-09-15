@@ -1,19 +1,10 @@
-import * as React from 'react';
-import { useParams } from 'react-router-dom';
-import articleContent from './article-content';
+import React from 'react';
 
-const ArticlePage = () => {
-    const [news, setNews] = React.useState(null);
-    const {name} = useParams();
-
-    React.useEffect(() => {articleContent(name).then(setNews)},[name]);
-
-    return (
-        <>
-            <h1>{news.title}</h1>
-            {news.content.map((paragraph,key) => (<p key={key}>{paragraph}</p>))}
-        </>
-    );
-};
+const ArticlePage = () => (
+    <>
+        <h1>Article 01</h1>
+        <p>Pharmacity có sự hỗ trợ tài chính rất mạnh mẽ từ trong nước cho đến quốc tế, bao gồm cả công ty cổ phần Mekong Capital có trụ sở tại Việt Nam và công ty đầu tư cổ phần tư nhân TR Capital có trụ sở tại Hong Kong. Ngành công nghiệp dược phẩm tại Việt Nam hiện tại trị giá 7.4 tỷ USD. Chi tiêu trung bình cho dược phẩm đã tăng với tốc độ trung bình 14% trong 10 năm qua và dự kiến sẽ tiếp tục tăng trong tương lai.</p>
+    </>
+)
 
 export default ArticlePage;

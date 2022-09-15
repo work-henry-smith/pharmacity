@@ -16,7 +16,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path='/about' element={<AboutPage />} />
             <Route path='/articles-list' element={<ArticlesList />} />
-            <Route path='/article/:name' element={<ArticlePage />} />
+            <Route path='/article-01' element={<ArticlePage />} />
           </Routes>
         </div>
       </div>
