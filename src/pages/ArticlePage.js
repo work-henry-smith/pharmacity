@@ -3,8 +3,8 @@ import React from 'react';
 const ArticlePage = () => (
     <>
         <h1>Article 01</h1>
-        <p>Mục tiêu của Pharmacity trong 5 năm là đưa quy mô chuỗi nhà thuốc lớn nhất Việt Nam hiện nay tăng lên 5.000 nhà thuốc, song song đó là phát triển một hệ sinh thái chăm sóc sức khỏe toàn diện dành cho người dân.</p>
-        <p>Pharmacity cũng có kế hoạch củng cố cơ sở hạ tầng kỹ thuật số của mình. Theo kế hoạch 05 năm đến 2025, Pharmacity sẽ ra mắt một siêu ứng dụng - super app nhằm mang lại nhiều dịch vụ khác nhau, bao gồm Dược sĩ và Bác sĩ trực tuyến, đặt xe cấp cứu và các dịch vụ chăm sóc sức khỏe tại nhà cũng như dịch vụ chăm sóc người bệnh.</p>
+        <h3>Công ty địa phương - Nguồn đầu tư toàn cầu</h3>
+        <p>Pharmacity có sự hỗ trợ tài chính rất mạnh mẽ từ trong nước cho đến quốc tế, bao gồm cả công ty cổ phần Mekong Capital có trụ sở tại Việt Nam và công ty đầu tư cổ phần tư nhân TR Capital có trụ sở tại Hong Kong. Ngành công nghiệp dược phẩm tại Việt Nam hiện tại trị giá 7.4 tỷ USD. Chi tiêu trung bình cho dược phẩm đã tăng với tốc độ trung bình 14% trong 10 năm qua và dự kiến sẽ tiếp tục tăng trong tương lai.</p>
     </>    
 );
 
